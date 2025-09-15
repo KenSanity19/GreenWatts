@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenWatts Landing Page</title>
-    <link rel="stylesheet" href="/adminAssets/adminCss/index.css">
+    <link rel="stylesheet" href="/adminAssets/adminCss/adminLogin.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -18,7 +18,13 @@
 
     <div class="right-section">
         <div class="login-box">
-            <h2>Login to your account </h2>
+
+            <a href="/index.html" class="back-btn">
+                <span class="material-icons">arrow_back</span>
+            </a>
+
+            <h2>Login to your account</h2>
+            <p class="subtitle">Administrative Page</p>
             <form>
                 <div class="input-box">
                     <span class="material-icons input-icon">person</span>
@@ -31,14 +37,12 @@
                     <input type="password" required>
                 </div>
                 <div class="remember-me">
-                    <input type="checkbox"> Remember Me
+                    <label><input type="checkbox"> Remember Me</label>
                 </div>
                 <button type="submit">Login</button>
-
-                <a class="admin-login" href="/adminAssets/adminWebpages/adminLogin.html"> Administrators Here</a>
             </form>
             <p class="lower-text"><strong class="forgot-pass">Forgot Your Password?</strong><br><br>
-                no worries, <a href="#">please click here</a>to reset your password </p>
+                no worries, <a class="reset-link" href="#">please click here</a> to reset your password </p>
         </div>
     </div>
 </body>

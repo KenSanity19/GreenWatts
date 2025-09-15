@@ -35,6 +35,35 @@ body {
     align-items: center;
 }
 
+.return {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.return .material-icons {
+    font-size: 36px;
+}
+
+.return-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.return .material-icons {
+    font-size: 32px;
+}
+
 .login-box{
     background: rgb(255, 255, 255, 0.8);
     padding: 30px;
@@ -44,10 +73,61 @@ body {
 }
 
 .login-box h2{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     font-size: 27px;
     font-weight: 600;
     margin-top: 0px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #16163f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.login-icon {
+    font-size: 20px;
+}
+
+.remember-me label {
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    color: #000;
+}
+
+p.lower-text {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #000;
+}
+
+.forgot-pass {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.reset-link {
+    color: red;
+    text-decoration: none;
+    margin-left: 5px;
 }
 
 .input-box {
@@ -96,6 +176,28 @@ body {
 .login-box button:hover{
     background: #1b1b50;
 }
+
+.back-btn {
+    position: relative; 
+    display: inline-block;
+    margin-bottom: 10px; 
+    text-decoration: none;
+}
+
+.back-btn .material-icons {
+    font-size: 45px;
+    color: #16163f;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    margin-left: -15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+.back-btn .material-icons:hover {
+    transform: scale(1.2); 
+}
+
 
 .login-box a{
     color: red;
